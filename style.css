@@ -1,3 +1,7 @@
+:root {
+    --main-color: #AEE2FF;
+}
+
 body {
     margin: auto;
 }
@@ -7,12 +11,24 @@ font-family: 'Poppins', sans-serif;
 h1 {
     font-size: 50px;
 }
-.intro {
+.hero {
  text-align: center;
  padding: 155px;
 }
+
 .name {
     font-family: 'Abril Fatface', cursive;
     font-size: 100px;
-    color:lightskyblue;
+    color: var(--main-color);;
+}
+.contact {
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: var(--main-color);
+}
+.contact:hover {
+    cursor: pointer;
+    transition: all 100ms;
+    color: white;
 }
