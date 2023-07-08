@@ -5,11 +5,15 @@
 body {
     margin: auto;
 }
-h1,h2 {
-font-family: 'Poppins', sans-serif;
+div.hero h1 {
+font-family: 'Playfair Display', serif;
+font-size: 50px;
+color: var(--main-color);
 }
-h1 {
-    font-size: 50px;
+
+
+h2 {
+font-family: 'Poppins', sans-serif;
 }
 .hero {
  text-align: center;
@@ -19,7 +23,7 @@ h1 {
 .name {
     font-family: 'Abril Fatface', cursive;
     font-size: 100px;
-    color: var(--main-color);;
+    color: var(--main-color);
 }
 .contact {
     border: none;
@@ -35,7 +39,7 @@ h1 {
 @media(max-width: 768px) {
     .hero {
         padding: 0;
-        padding-top: 135px;
+        padding-top: 100px;
     }
     .name {
         font-size: 40px;
@@ -49,4 +53,39 @@ h1 {
 .work-container {
     padding-bottom: 50px;
     padding: 10px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.about-container {
+    text-align: center;
+    padding: 50px;
+}
+div.about-container h1 {
+font-family: 'Playfair Display', serif;
+font-size: 50px;
+color: var(--main-color);
+}
+p {
+font-family: 'Poppins', sans-serif;
+}
+.lily {
+    border-radius: 500px;
+    max-width: 300px;
+}
+.britt {
+     border-radius: 500px;
+    max-width: 250px;
+}
+.leo {
+border-radius: 500px;
+    max-width: 300px;
+}
+@media(max-width: 768px) {
+    .about-container {
+        padding: 5px;
+        padding-top: 100px;
+    }
 }
