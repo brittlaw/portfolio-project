@@ -32,3 +32,21 @@ h1 {
     transition: all 100ms;
     color: white;
 }
+@media(max-width: 768px) {
+    .hero {
+        padding: 0;
+        padding-top: 135px;
+    }
+    .name {
+        font-size: 40px;
+    }
+}
+.work-p {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.work-container {
+    padding-bottom: 50px;
+    padding: 10px;
+}
