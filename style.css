@@ -51,24 +51,19 @@ font-family: 'Poppins', sans-serif;
     }
 }
 
-.work-p {
-    padding-bottom: 50px;
-    text-align: center;
-}
-
 footer {
     text-align: center;
     padding: 20px;
     font-family: 'Poppins', sans-serif;
 }
 
-.about-container, .work-container {
-    text-align: center;
+.about-container, .work-container, .contact-container {
     padding: 50px;
+    text-align: center;
 }
 
-div.about-container h1, div.work-container h1 {
-padding: 10px; 
+div.about-container h1, div.work-container h1, div.contact-container h1 {
+padding-top: 50px;
 font-family: 'Playfair Display', serif;
 font-size: 50px;
 color: var(--main-color);
@@ -99,8 +94,16 @@ border-radius: 500px;
 }
 
 @media(max-width: 768px) {
-    .about-container, .work-container {
+    .about-container, .work-container, .contact-container {
         padding: 5px;
         padding-top: 100px;
     }
+}
+.projects {
+    border-radius: 25px;
+}
+.projects:hover {
+transform: scale(1.2);
+transition: all 200ms ease-in-out;
+border-radius: 25px;
 }
