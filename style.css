@@ -107,3 +107,11 @@ transform: scale(1.2);
 transition: all 200ms ease-in-out;
 border-radius: 25px;
 }
+.project2 {
+    border-radius: 25px;
+}
+.project2:hover {
+transform: scale(1.1);
+transition: all 200ms ease-in-out;
+border-radius: 25px;
+}
