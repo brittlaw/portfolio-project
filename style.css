@@ -80,7 +80,14 @@ div.contact-container h4 {
     font-family: 'Poppins', sans-serif;  
     color: var(--third-color)
 }
+.contact-container h4:link,
+.contact-container h4:visited {
+ font-family: 'Poppins', sans-serif; 
+}
 
+a {
+    text-decoration: none;
+}
 p {
 
 font-family: 'Poppins', sans-serif;
