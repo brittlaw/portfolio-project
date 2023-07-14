@@ -1,6 +1,7 @@
 :root {
     --main-color: #AEE2FF;
-    --secondary-color: #93c6e7;
+    --secondary-color: #F7C8E0;
+    --third-color: #93c6e7;
 }
 
 body {
@@ -38,6 +39,7 @@ font-family: 'Poppins', sans-serif;
 .contact:hover {
     cursor: pointer;
     transition: all 100ms;
+    background: var(--secondary-color);
     color: white;
 }
 
@@ -69,12 +71,18 @@ font-size: 50px;
 color: var(--main-color);
 }
 
-div.work-container h3 {
+div.work-container h3, div.contact-container h3 {
 font-family: 'Poppins', sans-serif;  
 color: var(--secondary-color);
 }
 
+div.contact-container h4 {
+    font-family: 'Poppins', sans-serif;  
+    color: var(--third-color)
+}
+
 p {
+
 font-family: 'Poppins', sans-serif;
 }
 
