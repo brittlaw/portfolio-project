@@ -55,8 +55,16 @@ font-family: 'Poppins', sans-serif;
 
 footer {
     text-align: center;
-    padding: 20px;
     font-family: 'Poppins', sans-serif;
+    padding: 25px;
+}
+
+footer .social-links a {
+    text-decoration: none;
+    text-align: center;
+    margin: 0 10px;
+    color: var(--third-color);
+    transition: all 100ms ease-in-out;
 }
 
 .about-container, .work-container, .contact-container {
